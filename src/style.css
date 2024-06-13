@@ -6,21 +6,22 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: black;
     justify-content: center;
     align-items: center;
 }
 .container{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: center;
 }
 .navbar{
-    background-color: yellow;
+    background-color: black;
     width: 100%;
     height: 50px;
+    border-bottom: 1.5px solid white;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -31,24 +32,627 @@ body{
     position: fixed;
 }
 .kiri{
-    background-color: green;
+    /* background-color: green; */
     font-weight: 500;
     color: white;
     font-size: 20px;
-
+    text-shadow: 4px 4px 10px pink;
 }
 .kanan{
-    background-color: pink;
+    /* background-color: pink; */
+    display: flex;
+    gap: 30px;
     justify-content: space-around;
     align-items: center;
 }
 .navkanan{
-    padding-right: 30px;
+    /* padding-right: 30px; */
     text-decoration: none;
     font-weight: 400;
     color: white;
 }
 .navkanan:hover{
-    color: orange;
+    color: pink;
+    border-bottom: 1px solid pink;
+}
+.isi{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:antiquewhite; */
+}
+.isi .kiri{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.isi .kiri .intan{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.isi .kiri .bawah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+.cv{
+    display: block;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px pink;
+}
+.cv:hover{
+    color: pink;
+    background-color: gray;
+}
+.isi .kanann{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100vh;
+    /* background-color: green; */
+    justify-content: center;
+    text-align: start;
+}
+.kanann{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+}
+.nama{
+    display: flex;
+    justify-content: start;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.nama span {
+    margin-left: 7px;
+    color: pink;
+}
+.deskrip{
+    color: white;
 
+}
+.sosmed{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 30px;
+}
+.sosmed .atass{
+    display: flex;
+    align-items: start;
+    align-items: center;
+    gap: 20px;
+}
+.insta{
+    width: 40px;
+    height: auto;
+}
+.namae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 65px ;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px pink;
+    /* text-align: center; */
+}
+.namae:hover{
+    color: pink;
+    background-color: gray;
+}
+.github{
+    display: flex;
+    width: 40px;
+    height: auto;
+}
+.sosmed .bawahh{
+    display: flex;
+    align-items: start;
+    align-items: center;
+    gap: 20px;
+}
+.linke{
+    display: flex;
+    width: 40px;
+    height: auto;
+}
+
+/* Bagian Contact */
+.contactbox{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.contactbox .aatas{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.contactbox .ttengah{
+    display: flex;
+    font-size: 30px;
+    color: pink;
+    margin-bottom: 50px;
+}
+.aatas:hover{
+    color: pink;
+    text-shadow: 1px 1px 15px red;
+}
+.ttengah:hover{
+    color: white;
+    text-shadow: 1px 1px 15px pink;
+}
+.contactbox .bbawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    /* background-color: yellow; */
+    /* gap: 50px; */
+}
+.bbawah .kirii{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+.bbawah .tengahh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+.bbawah .kanann{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+.tlp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: auto;
+}
+.namaee{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.akun{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.btnklik{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px pink;
+}
+.btnklik:hover{
+    color: pink;
+    background-color: gray;   
+}
+
+/* ABOUT ME */
+.boxabout{
+    /* background-color: green; */
+    width: 95%;
+    height: 2150px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+}
+.namades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+}
+.judul{
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+.judul span{
+    color: pink;
+}
+.deskripsi{
+    color: white;
+
+}
+.deskripsi span{
+    font-weight: 900;
+}
+.univ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    height: 150px;
+    /* background-color: yellow; */
+    gap: 100px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    /* padding: 50px; */
+}
+.univ .logo{
+    display: flex;
+    /* background-color: pink; */
+    width: 10%;
+}
+.univ .deskuniv{
+    /* background-color: red; */
+    width: 40%;
+    font-size: 18px;
+    color: white;
+}
+.pengalaman{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkblue; */
+    width: 100%;
+    height: 900px;
+    gap: 20px;
+    /* padding-bottom: 50px; */
+}
+.pengkuliah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.collage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.collage span{
+    color: pink;
+}
+.isipeng{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+.atasss{
+    display: flex;
+    width: 90%;
+    height: 355px;
+    /* background-color: bisque; */
+    justify-content: center;
+    gap: 40px;
+    /* align-items: center; */
+}
+.isiatas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+    /* background-color: blueviolet; */
+    border: 2px solid white;
+    border-radius: 50px;
+    align-items: center;
+}
+.isiatas:hover{
+    background-color: rgb(86, 86, 86);
+    cursor:grab;
+}
+.bawahhh{
+    display: flex;
+    width: 90%;
+    height: 355px;
+    /* background-color: bisque; */
+    justify-content: center;
+    gap: 40px;
+}
+.isibawah{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+    /* background-color: blueviolet; */
+    border: 2px solid white;
+    border-radius: 50px;
+    align-items: center;
+}
+.isibawah:hover{
+    background-color: rgb(86, 86, 86);
+    cursor:grab;
+}
+.isi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: white; 
+}
+.isi2{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+.isi3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.isi4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+.skil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /* background-color:brown; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+.skilku{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.skilkuu span{
+    color: pink;
+}
+.hard{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    /* background-color: yellow; */
+}
+.hskil{
+    display: flex;
+    width: 30%;
+    height: auto;
+    color: white;
+    border-right: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+}
+.hskils{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    gap: 5px;
+}
+.hskilss{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.hskilss span{
+    color: pink;
+}
+.hskilsss{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.soft{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;   
+}
+.sskil{
+    display: flex;
+    width: 30%;
+    border-right: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sskils{
+    display: flex;
+    font-size: 18px;
+    width: 70%;
+    color: white;
+    text-align: start;
+    justify-content: center;
+    /* padding-left:20px ; */
+}
+.bhsprogram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.bprogram{
+    display: flex;
+    width: 30%;
+    height: auto;
+    color: white;
+    border-right: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.gambar{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+}
+.bprogramm{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+}
+
+/* PORTOFOLIO */
+.porto{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 90%;
+    height: 750px;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: brown; */
+    gap: 30px;
+}
+.ataz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.ataz span{
+    color: pink;
+}
+.tenggah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    gap: 20px;
+}
+.kwiri{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.kwanan{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.portoisi{
+    display: flex;
+    color: pink;
+}
+.portoizi{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
 }
